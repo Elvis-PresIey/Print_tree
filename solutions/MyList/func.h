@@ -11,4 +11,4 @@ int* printr(Node* root);
 int* prints(Node* root);
 
 
-#endif //  SOLUTIONS_MYLIST_FUNC_H_
+#endif  // SOLUTIONS_MYLIST_FUNC_H_
