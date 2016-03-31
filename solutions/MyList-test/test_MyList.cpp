@@ -12,7 +12,7 @@ TEST(print, order) {
   Node* l = new Node; l -> key = 2; l -> left = ll; l -> right = lr;
   Node* r = new Node; r -> key = 8; r -> left = rl; r -> right = rr;
   Node* i = new Node; i -> key = 6; i -> left = l; i -> right = r;
-  
+
   int a[9] = {6, 2, 0, 1, 4, 5, 8, 7, 9};
 
   for (int j = 0; j < 9; j++)
@@ -29,7 +29,7 @@ TEST(print, rorder) {
   Node* l = new Node; l -> key = 2; l -> left = ll; l -> right = lr;
   Node* r = new Node; r -> key = 8; r -> left = rl; r -> right = rr;
   Node* i = new Node; i -> key = 6; i -> left = l; i -> right = r;
-  
+
   int a[9] = {1, 0, 5, 4, 2, 7, 9, 8, 6};
 
   for (int j = 0; j < 9; j++)
@@ -46,7 +46,7 @@ TEST(print, sorder) {
   Node* l = new Node; l -> key = 2; l -> left = ll; l -> right = lr;
   Node* r = new Node; r -> key = 8; r -> left = rl; r -> right = rr;
   Node* i = new Node; i -> key = 6; i -> left = l; i -> right = r;
-  
+
   int a[9] = {0, 1, 2, 4, 5, 6, 7, 8, 9};
 
   for (int j = 0; j < 9; j++)
